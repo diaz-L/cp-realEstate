@@ -1,11 +1,31 @@
 header {
 	background: $darkblue;
 	color: white;
-	padding: 20px 0;
+	padding: 2rem 0;
 	font-size: 1.6rem;
 
 	.container {
 		display: flex;
 		justify-content: space-between;
+	}
+	a {
+		text-decoration: none;
+		text-transform: capitalize;
+		color: white;
+		margin-right: 2rem;
+
+		&:hover {
+			color: $darkpink;
+		}
+		&.register-btn {
+		   background: $darkpink;
+		   border-radius: 3px;
+		   padding: .7rem 1.5rem;
+			  
+		   &:hover {
+				background: $darkestpink;
+				color: white;
+			}
+		 }
 	}
 }

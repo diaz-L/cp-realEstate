@@ -6,10 +6,10 @@ class Header extends React.Component {
 			<div className="container">
 			  <div>Logo</div>
 			  <nav>
-				  <a href="#" className="nav-item">Create Ads</a>
-				  <a href="#" className="nav-item">About us</a>
-				  <a href="#" className="nav-item">Log In</a>
-				  <a href="#" className="nav-item">Register</a>
+				  <a href="#">Create Ads</a>
+				  <a href="#">About us</a>
+				  <a href="#">Log In</a>
+				  <a href="#" className="register-btn">Register</a>
 			  </nav>
 			</div>
 		</header>)
