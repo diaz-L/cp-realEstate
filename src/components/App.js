@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 //import 'normalize.css'
 import Header from './Header.js'
+import Filter from './Filter.js'
+import Listings from './Listings.js'
 import "../sass/style.scss"
 
 class App extends React.Component {
@@ -13,6 +15,10 @@ class App extends React.Component {
 		return (
 			<div>
 				<Header />
+				<main id='content-area'>
+					<Filter />
+					<Listings />
+				</main>
 			</div>
 		)
 	}
