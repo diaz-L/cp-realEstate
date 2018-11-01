@@ -1,0 +1,11 @@
+header {
+	background: $darkblue;
+	color: white;
+	padding: 20px 0;
+	font-size: 1.6rem;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+	}
+}
