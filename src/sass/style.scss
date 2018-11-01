@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import "variables";
 @import "header";
+@import "filter";
 
 * {
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
 html {
 	font-size: calc(10 / 16 * 100%);
-	font-family: 'Roboto', sans-serif;
 }
 
 .container {
